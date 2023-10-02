@@ -4,11 +4,24 @@
   
   
   <entry>
+    <title>Demo02</title>
+    <link href="/2023/10/02/Demo02/"/>
+    <url>/2023/10/02/Demo02/</url>
+    
+    <content type="html"><![CDATA[<p class="note note-primary">浅试mybatis+servle总结</p><blockquote><p>1.在mybatis下使用servlet<br>    (1)必须配好相应jar包，tomcat配置jar包简单粗暴方法：将mybatisjar包和jdbcjar包直接放入本地tomcat的lib文件夹下<br>    （tip:在mybatis下也需要相应jar包,如果为mave项目则可通过映射方式配置jar包，，，，总的来说就是：在mybatis 和 servlet下分别需要配置相应jar包）<br>    (2)必须使用类加载器加载数据库配置文件，不采用此方法运行servlet调用sql方法可能出现空指针异常</p></blockquote><blockquote><p>2.mysql+servlet:<br>    mysql<br>    在设计数据库时需统一改为utf8,尤其注意表属性utf8    &#x2F;&#x2F;进行tomcat交互，避免乱码<br>servlet:<br>    在tomcat中的server.xml配置文件，将配置文件中类似的一行代码改成<br>    <Connector port="8080" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" URIEncoding="UTF-8"/>    </p></blockquote><blockquote><p>详细请看</p><footer><strong>@CSDN</strong><cite><a href="https://blog.csdn.net/weixin_39871907/article/details/79870669?ops_request_misc=&request_id=&biz_id=102&utm_term=tomcat%E5%92%8Cmysql%E5%AD%97%E7%AC%A6%E9%9B%86%E8%B0%83%E6%95%B4&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-79870669.142^v87^control_2,239^v2^insert_chatgpt&spm=1018.2226.3001.4187">blog.csdn.net/weixin_39871907/article/details/79870669?ops_request_misc=&request_id=&biz_id=102&utm_term=tomcat%E5%92%8Cmysql%E5%AD%97%E7%AC%A6%E9%9B%86%E8%B0%83%E6%95%B4&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-79870669.142^v87^control_2,239^v2^insert_chatgpt&spm=1018.2226.3001.4187</a></cite></footer></blockquote>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>flag01</title>
     <link href="/2023/10/02/falg01/"/>
     <url>/2023/10/02/falg01/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<p class="note note-primary">hexo-fluid问题散点</p><blockquote><p>在修改网站语言时，记住修改框架上级目录的根目录的config文件 ，而不是修改主题框架里面的config<br>在上传时使用http协议失败，暂未解决 但采用ssh方式部署成功</p></blockquote>]]></content>
     
     
     
@@ -21,7 +34,7 @@
     <link href="/2023/10/02/hr/"/>
     <url>/2023/10/02/hr/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<p class="note note-primary">gorgeous: performance_test</p><div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="/img/ai01.jpg"></div><div class="group-image-wrap"><img src="/img/ai02.png"></div><div class="group-image-wrap"><img src="/img/xiang01.jpg"></div></div><div class="group-image-row"><div class="group-image-wrap"><img src="/img/xiang02.jpg"></div><div class="group-image-wrap"><img src="/img/xiang03.jpg"></div><div class="group-image-wrap"><img src="/img/xiang04.jpg"></div></div></div>]]></content>
     
     
     <categories>
